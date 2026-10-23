@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+*.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Large model files - use DVC or share separately
+*.joblib
+*.pkl
+*.h5
+*.pt
+*.pth
+models/
+
+# OS
+.DS_Store
+Thumbs.db
